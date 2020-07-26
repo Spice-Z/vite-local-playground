@@ -2,6 +2,9 @@ module.exports = {
   title: 'VitePress Local Playground',
 
   themeConfig: {
+    nextLinks: true,
+    prevLinks: true,
+
     nav: [
       { text: 'Guide', link: '/guide/' },
       { text: 'Nested', link: '/guide/nested/', },

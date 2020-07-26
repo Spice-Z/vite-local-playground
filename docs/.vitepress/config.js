@@ -33,13 +33,5 @@ module.exports = {
         }
       ],
     },
-
-    locales: {
-      '/ja/': {
-        editLink: {
-          text: '編集する'
-        },
-      }
-    }
   }
 }

@@ -1,3 +1,7 @@
+---
+prev: false
+next: /guide/getting-started
+---
 # Nested something
 
 hoge

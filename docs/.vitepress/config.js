@@ -12,16 +12,16 @@ module.exports = {
 
     sidebar: {
       '/': [
-        { text: 'Index', link: '/index' },
+        { text: 'Index', link: 'index' },
       ],
 
       '/guide/': [
         {
           text: 'Prologue',
           children: [
-            { text: 'Index', link: '/guide/index' },
-            { text: 'Getting Started', link: '/guide/getting-started' },
-            { text: 'Guide Second', link: '/guide/guide-second' },
+            { text: 'Index', link: 'guide/index' },
+            { text: 'Getting Started', link: 'guide/getting-started' },
+            { text: 'Guide Second', link: 'guide/guide-second' },
           ]
         },
       ],
@@ -30,8 +30,8 @@ module.exports = {
         {
           text: 'Nested',
           children: [
-            { text: 'Nested Index', link: '/guide/nested/index' },
-            { text: 'Nested Something', link: '/guide/nested/something' }
+            { text: 'Nested Index', link: 'guide/nested/index' },
+            { text: 'Nested Something', link: 'guide/nested/something' }
           ]
         }
       ],

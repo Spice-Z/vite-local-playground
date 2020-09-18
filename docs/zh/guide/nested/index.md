@@ -1,10 +1,6 @@
----
-prev: false
-next: guide/getting-started
----
-# Nested something
+# Nested index(zh)
 
-hoge
+nested
 
 ## Heading 2
 

@@ -2,7 +2,7 @@
 prev: false
 next: guide/getting-started
 ---
-# Nested something
+# Nested something(zh)
 
 hoge
 

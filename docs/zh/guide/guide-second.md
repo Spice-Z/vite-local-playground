@@ -1,10 +1,6 @@
----
-prev: false
-next: guide/getting-started
----
-# Nested something
+# Getting Second(zh)
 
-hoge
+Hello, getting started!
 
 ## Heading 2
 

@@ -61,5 +61,52 @@ module.exports = {
         }
       ],
     },
+
+    locales: {
+      '/zh/': {
+        nav: [
+          { text: '指南', link: '/zh/guide/' },
+          { text: 'API', link: '/zh/api/' },
+          { text: '更新日志', link: 'https://github.com/vuejs/vuex/releases' },
+        ],
+        sidebar: [
+          {
+            text: '指南',
+            children: [
+              { text: '指南', link: '/zh/guide/' },
+              { text: '快速开始', link: '/zh/guide/getting-started' },
+              { text: '指南内容', link: '/zh/guide/guide-content' },
+              { text: '内容', link: '/zh/guide/content' },
+            ],
+          },
+          {
+            text: '内容',
+            children: [{ text: '内容', link: '/zh/guide/content' }],
+          },
+        ],
+      },
+      '/ja/': {
+        nav: [
+          { text: 'ガイド', link: '/ja/guide/' },
+          { text: 'API', link: '/ja/api/' },
+          { text: 'リリースノート', link: 'https://github.com/vuejs/vuex/releases' },
+        ],
+        sidebar: [
+          {
+            text: 'ガイド',
+            children: [
+              { text: 'ガイド', link: '/ja/guide/' },
+              { text: 'はじめる', link: '/ja/guide/getting-started' },
+              { text: 'ガイドの内容', link: '/ja/guide/guide-content' },
+              { text: '内容', link: '/ja/guide/content' },
+            ],
+          },
+          {
+            text: '内容',
+            children: [{ text: '内容', link: '/ja/guide/content' }],
+          },
+        ],
+      }
+    }
   }
 }

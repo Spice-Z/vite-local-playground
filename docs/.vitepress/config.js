@@ -2,14 +2,22 @@ module.exports = {
   title: 'VitePress Local Playground',
   locales: {
     '/': {
+      label: 'English',
       lang: 'en-US',
       title: 'VitePress Playground',
       description: 'Vite-powered Static Site Generator'
     },
     '/zh/': {
+      label: '中文',
       lang: 'zh-CN',
       title: 'VitePress 游乐场',
       description: 'Vite 驱动的静态网站生成器'
+    },
+    '/ja/': {
+      label: '日本語',
+      lang: 'ja-JP',
+      title: 'VitePress プレイグラウンド',
+      description: 'Vite 静的サイトジェネレーター！'
     },
   },
 

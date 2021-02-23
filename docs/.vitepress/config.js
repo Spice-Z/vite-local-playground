@@ -2,22 +2,16 @@ module.exports = {
   title: "VitePress Local Playground",
   locales: {
     "/": {
-      selectText: "Languages",
-      label: "English",
       lang: "en-US",
       title: "VitePress Playground",
       description: "Vite-powered Static Site Generator",
     },
     "/zh/": {
-      selectText: "选择语言",
-      label: "中文",
       lang: "zh-CN",
       title: "VitePress 游乐场",
       description: "Vite 驱动的静态网站生成器",
     },
     "/ja/": {
-      selectText: "言語",
-      label: "日本語",
       lang: "ja-JP",
       title: "VitePress プレイグラウンド",
       description: "Vite 静的サイトジェネレーター！",
@@ -25,6 +19,7 @@ module.exports = {
   },
 
   themeConfig: {
+    repo: "vuejs/vuex",
     nextLinks: true,
     prevLinks: true,
 
@@ -66,7 +61,13 @@ module.exports = {
     },
 
     locales: {
+      "/": {
+        label: "English",
+        selectText: "Languages",
+      },
       "/zh/": {
+        label: "中文",
+        selectText: "选择语言",
         nav: [
           { text: "指南", link: "/zh/guide/" },
           { text: "API", link: "/zh/api/" },
@@ -89,6 +90,8 @@ module.exports = {
         ],
       },
       "/ja/": {
+        label: "日本語",
+        selectText: "言語",
         nav: [
           { text: "ガイド", link: "/ja/guide/" },
           { text: "API", link: "/ja/api/" },
